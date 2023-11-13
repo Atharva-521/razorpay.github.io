@@ -1,6 +1,10 @@
 {
+  "homepage": "https://atharva-521.github.io/razorpay.github.io/",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build",
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d start"
   },
   "author": "",
   "license": "ISC",
